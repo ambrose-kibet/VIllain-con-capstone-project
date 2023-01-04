@@ -16,14 +16,41 @@
     />
   </head>
   <body>
+    <div class="socials">
+      <div class="container pos">
+        <ul class="links-container horizontal-links socials-container">
+          <li>
+            <a href="#" class="link socials-link"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="link socials-link"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li><a href="#" class="link socials-link">Logout</a></li>
+          <li><a href="#" class="link socials-link">MyPage</a></li>
+          <li><a href="#" class="link socials-link">Korean</a></li>
+        </ul>
+      </div>
+    </div>
     <nav>
       <div class="container">
-        <div class="logo-container">
+        <a href="./index.html" class="logo-container link">
           <img src="./assets/logo.svg" alt="logo" />
-        </div>
+        </a>
         <button type="button" class="togler">
           <i class="fa-solid fa-bars"></i>
         </button>
+        <ul class="links-container horizontal-links">
+          <li><a href="./about.html" class="link active">About</a></li>
+          <li><a href="#" class="link">Program</a></li>
+          <li><a href="#" class="link">Join</a></li>
+          <li><a href="#" class="link">Sponsonr</a></li>
+          <li><a href="#" class="link">News</a></li>
+        </ul>
+        <a href="#" class="link link-btn large-nav">CC Campaign</a>
       </div>
       <aside class="sidebar-container">
         <div class="sidebar">
@@ -36,13 +63,18 @@
             </button>
           </div>
           <ul class="links-container">
-            <li><a href="./about.html" class="link">About</a></li>
+            <li><a href="./about.html" class="link active">About</a></li>
+            <li><a href="#" class="link">Program</a></li>
+            <li><a href="#" class="link">Join</a></li>
+            <li><a href="#" class="link">Sponsonr</a></li>
+            <li><a href="#" class="link">News</a></li>
+            <li><a href="#" class="link link-btn">CC Campaign</a></li>
           </ul>
         </div>
       </aside>
     </nav>
     <main>
-      <section class="section-container">
+      <section class="section-container home">
         <div class="title-container">
           <h1 class="h3">"Greetings! villains of the world!"</h1>
           <h1>Annual villain conference 2023</h1>
@@ -58,81 +90,80 @@
       <section class="section-container program-section">
         <h2 class="section-title">Main-program</h2>
         <div class="underline"></div>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/podium-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Lecture</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/presentation-chart-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">CC Exhibition</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/chat-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Forum</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/presentation-detail-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Workshop</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/atom-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">CC ignite</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <button class="btn btn-large">Join Villain Con 2020</button>
+        <div class="program-container">
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/podium-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Lecture</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat .
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/presentation-chart-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">CC Exhibition</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat .
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/chat-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Forum</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat .
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/presentation-detail-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Workshop</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat .
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/atom-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">CC ignite</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat .
+            </p>
+          </article>
+        </div>
+        <button class="btn btn-large temp-btn">Join Villain Con 2020</button>
+        <button class="dec-btn">see The whole program</button>
       </section>
       <section class="section-container speaker-section">
         <h2 class="section-title">Featured Speakers</h2>
         <div class="underline"></div>
+        <div class="speaker-container"></div>
       </section>
       <section class="container partners-section">
         <h2 class="section-title">Partners</h2>

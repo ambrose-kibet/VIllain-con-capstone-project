@@ -53,6 +53,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://ambrose-kibet.github.io/VIllain-con-capstone-project/)
+- [Video Demo Link](https://www.loom.com/share/97e40c3ca1f245c998d470d90a986101)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>

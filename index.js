@@ -7,9 +7,7 @@ const speakers = [
   {
     name: 'Dr. Joseph Albert Nefario',
     image: './assets/drnefario.jpg',
-    position: `	
-Gru's gadget man,
-Owner of Criminal Records (formerly)`,
+    position: "Gru's gadget man, Owner of Criminal Records (formerly)",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus sed exercitationem nostrum, ipsum aut quidem?`,
   },
@@ -61,7 +59,9 @@ sidebarLinks.forEach((btn) => {
 });
 window.addEventListener('DOMContentLoaded', () => {
   speakers.map((speaker) => {
-    const { name, image, position, info } = speaker;
+    const {
+      name, image, position, info
+    } = speaker;
     const article = document.createElement('article');
     article.className = 'card';
     article.innerHTML = ` <div class="card-header">

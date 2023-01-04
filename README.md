@@ -115,6 +115,7 @@ If you like this project star it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse.org
+I would like to acknowledge [cindyShin](https://www.behance.net/adagio07) for the project design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

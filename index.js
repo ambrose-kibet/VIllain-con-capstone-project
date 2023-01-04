@@ -32,7 +32,8 @@ machoest Villain`,
   {
     name: 'Vector',
     image: './assets/Vector.webp',
-    position: `World's #1 most Slappin' Supervillain with both Direction and Magnitude`,
+    position:
+      "World's #1 most Slappin' Supervillain with both Direction and Magnitude",
     info: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus sed exercitationem nostrum, ipsum aut quidem?`,
   },

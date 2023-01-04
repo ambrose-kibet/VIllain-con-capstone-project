@@ -18,12 +18,20 @@
   <body>
     <nav>
       <div class="container">
-        <div class="logo-container">
+        <a href="./index.html" class="logo-container link">
           <img src="./assets/logo.svg" alt="logo" />
-        </div>
+        </a>
         <button type="button" class="togler">
           <i class="fa-solid fa-bars"></i>
         </button>
+        <ul class="links-container horizontal-links">
+          <li><a href="./about.html" class="link active">About</a></li>
+          <li><a href="#" class="link">Program</a></li>
+          <li><a href="#" class="link">Join</a></li>
+          <li><a href="#" class="link">Sponsonr</a></li>
+          <li><a href="#" class="link">News</a></li>
+        </ul>
+        <a href="#" class="link link-btn large-nav">CC Campaign</a>
       </div>
       <aside class="sidebar-container">
         <div class="sidebar">
@@ -36,7 +44,12 @@
             </button>
           </div>
           <ul class="links-container">
-            <li><a href="./about.html" class="link">About</a></li>
+            <li><a href="./about.html" class="link active">About</a></li>
+            <li><a href="#" class="link">Program</a></li>
+            <li><a href="#" class="link">Join</a></li>
+            <li><a href="#" class="link">Sponsonr</a></li>
+            <li><a href="#" class="link">News</a></li>
+            <li><a href="#" class="link link-btn">CC Campaign</a></li>
           </ul>
         </div>
       </aside>
@@ -58,81 +71,84 @@
       <section class="section-container program-section">
         <h2 class="section-title">Main-program</h2>
         <div class="underline"></div>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/podium-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Lecture</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/presentation-chart-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">CC Exhibition</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/chat-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Forum</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/presentation-detail-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">Workshop</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
-        <article class="program">
-          <span class="program-icon">
-            <img
-              src="./assets/atom-svgrepo-com.svg"
-              alt="podium-icon"
-              height="100%"
-            />
-          </span>
-          <p class="p-title">CC ignite</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            eveniet et corporis, corrupti sint fugit!.
-          </p>
-        </article>
+        <div class="program-container">
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/podium-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Lecture</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              eveniet et corporis, corrupti sint fugit!.
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/presentation-chart-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">CC Exhibition</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              eveniet et corporis, corrupti sint fugit!.
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/chat-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Forum</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              eveniet et corporis, corrupti sint fugit!.
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/presentation-detail-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">Workshop</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              eveniet et corporis, corrupti sint fugit!.
+            </p>
+          </article>
+          <article class="program">
+            <span class="program-icon">
+              <img
+                src="./assets/atom-svgrepo-com.svg"
+                alt="podium-icon"
+                height="100%"
+              />
+            </span>
+            <p class="p-title">CC ignite</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              eveniet et corporis, corrupti sint fugit!.
+            </p>
+          </article>
+        </div>
         <button class="btn btn-large">Join Villain Con 2020</button>
       </section>
       <section class="section-container speaker-section">
         <h2 class="section-title">Featured Speakers</h2>
         <div class="underline"></div>
+        <div class="speaker-container"></div>
       </section>
       <section class="container partners-section">
         <h2 class="section-title">Partners</h2>

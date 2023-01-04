@@ -18,10 +18,20 @@
   <body>
     <nav>
       <div class="container">
-        <div class="logo-container">
+        <a href="./index.html" class="logo-container link">
           <img src="./assets/logo.svg" alt="logo" />
-        </div>
-        <div class="togler"><i class="fa-solid fa-bars"></i></div>
+        </a>
+        <button type="button" class="togler">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="links-container horizontal-links">
+          <li><a href="./index.html" class="link active">Home</a></li>
+          <li><a href="#" class="link">Program</a></li>
+          <li><a href="#" class="link">Join</a></li>
+          <li><a href="#" class="link">Sponsonr</a></li>
+          <li><a href="#" class="link">News</a></li>
+        </ul>
+        <a href="#" class="link link-btn large-nav">CC Campaign</a>
       </div>
       <aside class="sidebar-container">
         <div class="sidebar">
@@ -34,7 +44,12 @@
             </button>
           </div>
           <ul class="links-container">
-            <li><a href="./about.html" class="link">About</a></li>
+            <li><a href="./index.html" class="link active">Home</a></li>
+            <li><a href="#" class="link">Program</a></li>
+            <li><a href="#" class="link">Join</a></li>
+            <li><a href="#" class="link">Sponsor</a></li>
+            <li><a href="#" class="link">News</a></li>
+            <li><a href="#" class="link link-btn">CC Campaign</a></li>
           </ul>
         </div>
       </aside>
@@ -112,7 +127,7 @@
           </div>
         </article>
       </section>
-      <section class="container partners-section">
+      <section class="container partners-section about-patners">
         <h2 class="section-title">Partners</h2>
         <div class="underline"></div>
         <article class="sponsors">
@@ -143,10 +158,13 @@
     </main>
     <footer class="about-footer">
       <div class="container">
-        <div class="logo-container-footer">
+        <div class="logo-container-footer f-logo">
           <img src="./assets/logo.svg" alt="logo" />
         </div>
-        <p>2023 Villain conference. All rights reserved. &#169;</p>
+        <div class="dark">
+          <img src="./assets/whitelogo.svg" alt="logo" />
+        </div>
+        <p>2023 Villain conference. All rights reserved &#169;.</p>
       </div>
     </footer>
     <script src="./index.js"></script>

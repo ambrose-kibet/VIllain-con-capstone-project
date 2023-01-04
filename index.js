@@ -60,7 +60,7 @@ sidebarLinks.forEach((btn) => {
 window.addEventListener('DOMContentLoaded', () => {
   speakers.map((speaker) => {
     const {
-      name, image, position, info
+      name, image, position, info,
     } = speaker;
     const article = document.createElement('article');
     article.className = 'card';

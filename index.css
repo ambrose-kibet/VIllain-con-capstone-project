@@ -21,7 +21,8 @@ html {
   --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
   --shadow-5: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --transition: all 0.3s ease-in-out;
 }
@@ -323,10 +324,12 @@ a {
   background-color: rgb(58, 58, 58);
   padding: 0.75rem;
   transition: var(--transition);
+  box-shadow: var(--shadow-1);
 }
 
 .program:hover {
-  border: 2pt solid white;
+  border: 1pt solid white;
+  box-shadow: var(--shadow-3);
 }
 
 .program > p {
@@ -372,6 +375,13 @@ a {
   padding: 2rem 3rem;
 }
 
+.more-togler {
+  border: 2pt solid #272a31;
+  background-color: transparent;
+  color: #272a31;
+  padding: 1rem 2.5rem;
+}
+
 .speaker-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -380,7 +390,7 @@ a {
 
 .card {
   display: grid;
-  grid-template-columns: 4fr 6fr;
+  grid-template-columns: 5fr 5fr;
   gap: 1rem;
   margin: 2rem;
 }
@@ -443,6 +453,16 @@ a {
   display: none;
 }
 
+.hide-card {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    grid-template-columns: 4fr 6fr;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .dec-btn {
     display: flex;
@@ -458,6 +478,13 @@ a {
 
   .speaker-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .more-togler {
+    display: none;
+  }
+
+  .hide-card {
+    display: grid;
   }
 }
 
